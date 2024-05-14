@@ -16,3 +16,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 ## testing
+<img src="/MarineGEO_logo.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
