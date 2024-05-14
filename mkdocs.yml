@@ -1,0 +1,72 @@
+site_name: Viva la vida
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    # - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.footer
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
+    # - search.share
+    # - toc.follow
+    # - toc.integrate
+
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/moon-waxing-crescent
+        name: Switch to dark mode
+      primary: indigo
+      accent: blue
+    - scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+      primary: indigo
+      accent: lime
+
+nav:
+  - Acceuil : index.md
+  - Recettes:
+    - Entrees :
+      - Entrees : recettes/entrees.md
+      - Bruschetta aux champigons : recettes/entrees/bruschetta-champi.md
+      - Guacamole : recettes/entrees/guacamole.md
+    - Desserts:
+      - Desserts : recettes/desserts.md
+      - Eclair Chocolat : recettes/desserts/eclair-choco.md
+    - Plats:
+      - Plats : recettes/plats.md
+      - Pad-Thai : recettes/plats/pad-thai-crevettes.md
+      - Pizza : recettes/plats/pizza-margherita.md
+      - Poulet Masala : recettes/plats/poulet-masala.md
+
+copyright: Made by &copyNattan COCHET, 2024
+
+extra_css:
+  - styles/extra.css
+
+extra:
+  generator: false
